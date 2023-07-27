@@ -1,0 +1,10 @@
+it node_modules
+node_modules
+node_modules
+
+/node_modules
+
+git lfs install
+git lfs track "node_modules/.cache/**/*.pack"
+git add .
+git commit -m "Exclude large files and set up git LFS"
